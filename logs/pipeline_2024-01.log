@@ -1,0 +1,6 @@
+2026-09-27 23:19:34 | INFO    | pipeline   | ########## PIPELINE RUN: month=2024-01 ##########
+2026-09-27 23:19:34 | INFO    | pipeline   | --- Stage 'ingest' starting ---
+2026-09-27 23:19:34 | INFO    | ingest     | === INGEST start: month=2024-01 force=False ===
+2026-09-27 23:19:34 | INFO    | ingest     | Downloading https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2024-01.parquet -> data/raw/yellow_tripdata_2024-01.parquet
+2026-09-27 23:19:57 | INFO    | ingest     | OK: yellow_tripdata_2024-01.parquet (49,961,641 bytes, sha256=c4d59da7bbc8...)
+2026-09-27 23:19:57 | INFO    | ingest     | Downloading https://d37ci6vzurychx.cloudfront.net/misc/taxi_zone_lookup.csv -> data/raw/taxi_zone_lookup.csv
